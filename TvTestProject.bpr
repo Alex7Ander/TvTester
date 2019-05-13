@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="TvTestProject.exe"/>
+    <OBJFILES value="TvTestProject.obj MainUnit.obj Units\ResultUnit\ResultUnit.obj 
+      Units\ConnectionOptions\ConnectionOptionsUnit.obj 
+      Units\MeasurmentUnit\MeasurmentUnit.obj Units\ExcelUnit\ExcelUnit.obj 
+      Units\ProtocolCreateThread\ProtocolCreateThread.obj 
+      Units\ProgressUnit\ProgressForm.obj 
+      Units\NewFreqTableUnit\NewFreqTableUnit.obj 
+      Units\NewFreqTableUnit\FreqTableClass\FreqTableClass.obj 
+      Units\ProtocolCreateUnit\ProtocolCreateUnit.obj"/>
+    <RESFILES value="TvTestProject.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) MainUnit.dfm Units\ResultUnit\ResultUnit.dfm 
+      Units\ConnectionOptions\ConnectionOptionsUnit.dfm 
+      Units\ProgressUnit\ProgressForm.dfm 
+      Units\NewFreqTableUnit\NewFreqTableUnit.dfm 
+      Units\ProtocolCreateUnit\ProtocolCreateUnit.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="vcl.lib rtl.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;Units\ResultUnit;Units\ConnectionOptions;Units\MeasurmentUnit;Units\ExcelUnit;Units\ProtocolCreateThread;Units\ProgressUnit;Units\NewFreqTableUnit;Units\NewFreqTableUnit\FreqTableClass;Units\ProtocolCreateUnit"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="TvTestProject.cpp"/>
+    <INCLUDEPATH value="Units\ProtocolCreateUnit;Units\NewFreqTableUnit\FreqTableClass;Units\NewFreqTableUnit;Units\ProgressUnit;Units\ProtocolCreateThread;Units\ExcelUnit;Units\MeasurmentUnit;Units\ConnectionOptions;Units;Units\ResultUnit;$(BCB)\Projects;C:\Users\Alex\Desktop\code\TvTester;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="Units\ProtocolCreateUnit;Units\NewFreqTableUnit\FreqTableClass;Units\NewFreqTableUnit;Units\ProgressUnit;Units\ProtocolCreateThread;Units\ExcelUnit;Units\MeasurmentUnit;Units\ConnectionOptions;Units;Units\ResultUnit;$(BCB)\Projects;C:\Users\Alex\Desktop\code\TvTester;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-IUnits\ProtocolCreateUnit -IUnits\NewFreqTableUnit\FreqTableClass 
+      -IUnits\NewFreqTableUnit -IUnits\ProgressUnit -IUnits\ProtocolCreateThread 
+      -IUnits\ExcelUnit -IUnits\MeasurmentUnit -IUnits\ConnectionOptions -IUnits 
+      -IUnits\ResultUnit -I$(BCB)\Projects -IC:\Users\Alex\Desktop\code\TvTester 
+      -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=&quot;C:\Program Files (x86)\Borland\CBuilder6\Lib\test.csm&quot; -Hc -Vx -Ve 
+      -X- -r- -a8 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="TvTestProject.res" FORMNAME="" UNITNAME="TvTestProject.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TvTestProject.cpp" FORMNAME="" UNITNAME="TvTestProject" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MainUnit.cpp" FORMNAME="MainForm" UNITNAME="MainUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Units\ResultUnit\ResultUnit.cpp" FORMNAME="ResultForm" UNITNAME="ResultUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Units\ConnectionOptions\ConnectionOptionsUnit.cpp" FORMNAME="ConnectionOptionsForm" UNITNAME="ConnectionOptionsUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Units\MeasurmentUnit\MeasurmentUnit.cpp" FORMNAME="" UNITNAME="MeasurmentUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Units\ExcelUnit\ExcelUnit.cpp" FORMNAME="" UNITNAME="ExcelUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Units\ProtocolCreateThread\ProtocolCreateThread.cpp" FORMNAME="" UNITNAME="ProtocolCreateThread" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Units\ProgressUnit\ProgressForm.cpp" FORMNAME="ProgressShowForm" UNITNAME="ProgressForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Units\NewFreqTableUnit\NewFreqTableUnit.cpp" FORMNAME="NewFreqTableForm" UNITNAME="NewFreqTableUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Units\NewFreqTableUnit\FreqTableClass\FreqTableClass.cpp" FORMNAME="" UNITNAME="FreqTableClass" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Units\ProtocolCreateUnit\ProtocolCreateUnit.cpp" FORMNAME="ProtocolCreateForm" UNITNAME="ProtocolCreateUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
